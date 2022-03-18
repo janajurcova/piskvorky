@@ -15,6 +15,11 @@ body {
   font-size: 15px;
   line-height: 1.5;
 }
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -28,10 +33,18 @@ body {
   border-radius: 5px 5px 0 0;
 }
 
+.game {
+  margin: 5% 0;
+}
+
+p {
+  padding: 5% 5%;
+}
+
 .button {
   text-decoration: none;
   width: 100%;
-  padding: 3%;
+  padding: 4%;
   color: #ffffff;
 }
 
@@ -55,15 +68,4 @@ h1 {
 
 .start:hover {
   background-color: #0090e9;
-}
-
-p {
-  padding: 5% 5%;
-}
-
-.game {
-  margin: 5% 0;
-}
-img {
-  border-radius: 5px 5px 0 0;
 }
