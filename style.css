@@ -27,9 +27,7 @@ h1 {
   width: 100%;
 }
 
-.exercise img {
-  width: 100%;
-}
+
 
 .header,
 .instruction {
@@ -100,10 +98,87 @@ figcaption {
   padding-top: 5px;
 }
 
+.exercise img {
+  width: 100%;
+}
+
+.text-icon {
+  height: 1em;
+  filter: invert(1);
+}
+
+.game {
+  max-width: 80vmin;
+   margin: 0 auto;
+   color:#ffffff
+}
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.7rem;
+}
+
+.game-header__turn span {
+  margin-right: 0.5rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.turn-icon {
+  font-size: 1.1rem;
+}
+
+.game-menu__button {
+  height: 2rem;
+  padding: 0.5rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.game-menu__button--home {
+  background-color: #1fcca4;
+}
+
+.game-menu__button--home:hover,
+.game-menu__button--home:focus {
+  background-color: #1cbb96;
+}
+
+.game-menu__button--restart {
+  background-color: #0197f6;
+}
+
+.game-menu__button--restart:hover,
+.game-menu__button--restart:focus {
+  background-color: #0090e9;
+}
+
+.game__field {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.game__field button {
+  background-color: white;
+  width: 10%;
+  aspect-ratio: 1 / 1;
+  opacity: 0.5;
+  border: 1px solid black;
+}
+
+.game__field button:hover,
+.game__fiels button:focus {
+  background-color: white;
+  opacity: 0.4;
+}
 
 @media (min-width: 800px) {
 
-#home {
+#homepage {
   max-width: 350px;
 }
 
