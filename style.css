@@ -22,7 +22,7 @@ h1 {
   margin-bottom: 0;
 }
 
-#home img {
+#homepage img {
   border-radius: 5px 5px 0 0;
   width: 100%;
 }
@@ -43,7 +43,7 @@ h1 {
   border-radius: 5px 5px 0 0;
 }
 
-.game {
+.homepage {
   margin: 5% 0;
 }
 
@@ -163,17 +163,16 @@ figcaption {
 }
 
 .game__field button {
-  background-color: white;
   width: 10%;
   aspect-ratio: 1 / 1;
-  opacity: 0.5;
-  border: 1px solid black;
+  opacity: 0.6;
+  border: 2px solid black;
 }
 
 .game__field button:hover,
 .game__fiels button:focus {
   background-color: white;
-  opacity: 0.4;
+  opacity: 0.7;
 }
 
 @media (min-width: 800px) {
